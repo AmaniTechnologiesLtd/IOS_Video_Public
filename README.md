@@ -9,6 +9,7 @@ This README file guides you for implementing our iOS Native Video SDK.
 ## Installation
 
 ### Via cocoapods
+
 Add these source lines on top of your Podfile
 
 ```rb
@@ -20,6 +21,26 @@ Add this line on your target:
 
 ```rb
 pod "AmaniVideoSDK"
+```
+
+You'll also need to add the post install hook
+
+```rb
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        if target.name != 'Socket.IO-Client-Swift'
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+        end
+        if target.name == 'WebRTC-lib'
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+        end
+      end
+    end
+  end
+end
 ```
 
 ## SDK Usage
