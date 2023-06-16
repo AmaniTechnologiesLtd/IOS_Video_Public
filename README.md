@@ -42,6 +42,13 @@ post_install do |installer|
   end
 end
 ```
+You may need to run following command before run pod install
+
+```bash
+pod repo update
+```
+
+
 
 ## SDK Usage
 
