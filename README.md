@@ -48,7 +48,18 @@ You may need to run following command before run pod install
 pod repo update
 ```
 
+## Required Permissions
 
+You need to add Camera and Microphone permissions to your app.
+
+Add the usage description strings below to use this SDK.
+
+```xml
+<key>NSMicrophoneUsageDescription</key>
+<string>This app needs to use camera for video call features</string>
+<key>NSCameraUsageDescription</key>
+<string>This app needs to use camera for video call features</string>
+```
 
 ## SDK Usage
 
