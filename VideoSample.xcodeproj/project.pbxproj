@@ -7,36 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		206BB51CFE82049654E1E56A /* Pods_VideoSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0398261BC87B762D48BE4D23 /* Pods_VideoSample.framework */; };
+		48C43BA72DE5F458005854FD /* Creds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C43BA62DE5F454005854FD /* Creds.swift */; };
 		C586814B2A32208500E45229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C586814A2A32208500E45229 /* AppDelegate.swift */; };
 		C586814D2A32208500E45229 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C586814C2A32208500E45229 /* SceneDelegate.swift */; };
 		C586814F2A32208500E45229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C586814E2A32208500E45229 /* ViewController.swift */; };
 		C58681522A32208500E45229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58681502A32208500E45229 /* Main.storyboard */; };
 		C58681542A32208700E45229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58681532A32208700E45229 /* Assets.xcassets */; };
 		C58681572A32208700E45229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58681552A32208700E45229 /* LaunchScreen.storyboard */; };
-		C5C87BFE2A32290E000CC2B1 /* AmaniVideoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C87BFD2A32290E000CC2B1 /* AmaniVideoSDK.xcframework */; };
-		C5C87BFF2A32290E000CC2B1 /* AmaniVideoSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5C87BFD2A32290E000CC2B1 /* AmaniVideoSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C5C87C022A322960000CC2B1 /* Creds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C87C012A322960000CC2B1 /* Creds.swift */; };
+		D2914801CD3537E251860FF0 /* Pods_VideoSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7A25647B209ACFC375152A /* Pods_VideoSample.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		C5C87C002A32290E000CC2B1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C5C87BFF2A32290E000CC2B1 /* AmaniVideoSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0398261BC87B762D48BE4D23 /* Pods_VideoSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		629D22AD173705899FF07CC8 /* Pods-VideoSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSample.release.xcconfig"; path = "Target Support Files/Pods-VideoSample/Pods-VideoSample.release.xcconfig"; sourceTree = "<group>"; };
-		6E6FA7EA1FC53349ABD8284C /* Pods-VideoSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSample.debug.xcconfig"; path = "Target Support Files/Pods-VideoSample/Pods-VideoSample.debug.xcconfig"; sourceTree = "<group>"; };
+		48193D5CBE666E2FA30748FC /* Pods-VideoSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSample.release.xcconfig"; path = "Target Support Files/Pods-VideoSample/Pods-VideoSample.release.xcconfig"; sourceTree = "<group>"; };
+		48C43BA62DE5F454005854FD /* Creds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creds.swift; sourceTree = "<group>"; };
+		5BB47C8E2DA89CABDCFB9729 /* Pods-VideoSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSample.debug.xcconfig"; path = "Target Support Files/Pods-VideoSample/Pods-VideoSample.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7A25647B209ACFC375152A /* Pods_VideoSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58681472A32208500E45229 /* VideoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C586814A2A32208500E45229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C586814C2A32208500E45229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +32,6 @@
 		C58681582A32208700E45229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C586815F2A32217C00E45229 /* AmaniVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AmaniVideo.xcframework; sourceTree = "<group>"; };
 		C5C87BFD2A32290E000CC2B1 /* AmaniVideoSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AmaniVideoSDK.xcframework; sourceTree = "<group>"; };
-		C5C87C012A322960000CC2B1 /* Creds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206BB51CFE82049654E1E56A /* Pods_VideoSample.framework in Frameworks */,
-				C5C87BFE2A32290E000CC2B1 /* AmaniVideoSDK.xcframework in Frameworks */,
+				D2914801CD3537E251860FF0 /* Pods_VideoSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +49,8 @@
 		C4C6A6320067EDB21CDBAB9F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6E6FA7EA1FC53349ABD8284C /* Pods-VideoSample.debug.xcconfig */,
-				629D22AD173705899FF07CC8 /* Pods-VideoSample.release.xcconfig */,
+				5BB47C8E2DA89CABDCFB9729 /* Pods-VideoSample.debug.xcconfig */,
+				48193D5CBE666E2FA30748FC /* Pods-VideoSample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -100,7 +83,7 @@
 				C58681532A32208700E45229 /* Assets.xcassets */,
 				C58681552A32208700E45229 /* LaunchScreen.storyboard */,
 				C58681582A32208700E45229 /* Info.plist */,
-				C5C87C012A322960000CC2B1 /* Creds.swift */,
+				48C43BA62DE5F454005854FD /* Creds.swift */,
 			);
 			path = VideoSample;
 			sourceTree = "<group>";
@@ -110,7 +93,7 @@
 			children = (
 				C5C87BFD2A32290E000CC2B1 /* AmaniVideoSDK.xcframework */,
 				C586815F2A32217C00E45229 /* AmaniVideo.xcframework */,
-				0398261BC87B762D48BE4D23 /* Pods_VideoSample.framework */,
+				5C7A25647B209ACFC375152A /* Pods_VideoSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,12 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C586815B2A32208700E45229 /* Build configuration list for PBXNativeTarget "VideoSample" */;
 			buildPhases = (
-				CB8CF6ECDB6ABD13D2AEE440 /* [CP] Check Pods Manifest.lock */,
+				1490A9D3D165EB7880CC64B9 /* [CP] Check Pods Manifest.lock */,
 				C58681432A32208500E45229 /* Sources */,
 				C58681442A32208500E45229 /* Frameworks */,
 				C58681452A32208500E45229 /* Resources */,
-				B0F1883FE048EE3CF584EE5E /* [CP] Embed Pods Frameworks */,
-				C5C87C002A32290E000CC2B1 /* Embed Frameworks */,
+				27B4D8C8DB926ADC63F5EAA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,24 +167,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B0F1883FE048EE3CF584EE5E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoSample/Pods-VideoSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoSample/Pods-VideoSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoSample/Pods-VideoSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB8CF6ECDB6ABD13D2AEE440 /* [CP] Check Pods Manifest.lock */ = {
+		1490A9D3D165EB7880CC64B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,6 +189,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		27B4D8C8DB926ADC63F5EAA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoSample/Pods-VideoSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoSample/Pods-VideoSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoSample/Pods-VideoSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -231,10 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C43BA72DE5F458005854FD /* Creds.swift in Sources */,
 				C586814F2A32208500E45229 /* ViewController.swift in Sources */,
 				C586814B2A32208500E45229 /* AppDelegate.swift in Sources */,
 				C586814D2A32208500E45229 /* SceneDelegate.swift in Sources */,
-				C5C87C022A322960000CC2B1 /* Creds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +358,7 @@
 		};
 		C586815C2A32208700E45229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E6FA7EA1FC53349ABD8284C /* Pods-VideoSample.debug.xcconfig */;
+			baseConfigurationReference = 5BB47C8E2DA89CABDCFB9729 /* Pods-VideoSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,17 +367,20 @@
 				DEVELOPMENT_TEAM = 24V9HW64Y3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoSample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.amani.VideoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.amani.VideoSampleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -405,7 +390,7 @@
 		};
 		C586815D2A32208700E45229 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629D22AD173705899FF07CC8 /* Pods-VideoSample.release.xcconfig */;
+			baseConfigurationReference = 48193D5CBE666E2FA30748FC /* Pods-VideoSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,17 +399,20 @@
 				DEVELOPMENT_TEAM = 24V9HW64Y3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoSample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.amani.VideoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.amani.VideoSampleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

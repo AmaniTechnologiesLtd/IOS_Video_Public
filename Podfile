@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
 source "https://github.com/AmaniTechnologiesLtd/Mobile_SDK_Repo"
 source "https://github.com/CocoaPods/Specs"
 
@@ -14,12 +14,9 @@ post_install do |installer|
     project.targets.each do |target|
       target.build_configurations.each do |config|
         # config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
-        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
         # config.build_settings['ENABLE_BITCODE'] = 'NO'
-        if target.name != 'Socket.IO-Client-Swift'
-            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
-        end
-        if target.name == 'WebRTC-lib'
+        if target.name == 'Socket.IO-Client-Swift'
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
             config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
         end
       end
